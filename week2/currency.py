@@ -1,8 +1,8 @@
 
 def main():
 # 1 = 184.01 colombia
-# 1 =  peruanos
-# 1 =  brazil
+# 1 = 0.20 peruanos
+# 1 = 0.31 brazil
 
     colombia = float(input("Colombian pesos: "))
     peru = float(input("Peruvian Soles: "))
