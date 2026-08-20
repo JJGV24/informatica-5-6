@@ -5,7 +5,7 @@ def main():
 
     years = int(input("How many years into the future: "))
 
-    transistores *= 2**(int(years)/2)
+    transistores *= 2**(years/2)
 
 
     print(transistores)
