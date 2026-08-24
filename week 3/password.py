@@ -8,7 +8,7 @@ def main():
         print("you have succesfully entered Epstein island")
 
     else:
-       print("buenas noches pequeño")
+       print("Incorrect, buenas noches pequeño")
 
 
     print("this program will self destruct in 5 seconds")
