@@ -8,6 +8,7 @@ def main():
     num1 = float(parts[0])
     operator = parts[1]
     num2 = float(parts[2])
+    total = float(0)
 
     if operator == "-":
         total = num1 - num2
@@ -19,17 +20,14 @@ def main():
         total = num1 / num2
     else:
         print(" ")
-    print(round(float total,1))
+
+    tiktok = round(total,1)
+    print(f"{tiktok}")
 
 
     #print(float(num1))
     #print(operator)
     #print(float(num2))
-
-
-
-
-
 
 if __name__ == "__main__":
     main()

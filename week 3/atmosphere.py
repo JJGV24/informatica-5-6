@@ -2,8 +2,8 @@
 def main():
 
     fah = input("Descent atmosphere layer: ")
-    sev = str(fah).strip
-    sphere = str(sev).lower
+    sev = str(fah).strip()
+    sphere = str(sev).lower()
 
 
     if sphere == "troposphere":
@@ -29,7 +29,7 @@ def main():
 
     elif sphere == "mesosphere":
         print("your descent range will be between 50-85km.")
-        x = int(input("enter your exact distance of descent in km: "))
+        a = int(input("enter your exact distance of descent in km: "))
         if a == 50:
             print("1106.7")
         else:
@@ -42,7 +42,7 @@ def main():
 
     elif sphere == "thermosphere":
         print("your descent range will be between 85-700km.")
-        x = int(input("enter your exact distance of descent in km: "))
+        a = int(input("enter your exact distance of descent in km: "))
         if a == 12:
             print("1281.7")
         else:
@@ -55,7 +55,7 @@ def main():
 
     elif sphere == "exosphere":
         print("your descent range will be between 700-10,000km.")
-        x = int(input("enter your exact distance of descent in km: "))
+        a = int(input("enter your exact distance of descent in km: "))
         if a == 12:
             print("600")
         else:
@@ -67,7 +67,7 @@ def main():
             print(f"{x}")
 
     else:
-        print("6-7")
+        print("invalid sphere")
 
 if __name__ == "__main__":
     main()
