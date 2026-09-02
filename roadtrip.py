@@ -12,6 +12,8 @@ def main():
         answ = input("Really? ").title().strip()
         if answ == "Yes":
             print("YEAAAAAAAH BUDDY")
+            break
+
 
 
     print("We are here!")
