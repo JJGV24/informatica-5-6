@@ -1,0 +1,9 @@
+1. Write a description for a while loop.
+A while loop is a line of code that will repeat lines of code as long as the condition is meet.
+
+2. Write a description for a for loop.
+A for loop is a programing tool that will repeat lines of code for predetermined times.
+
+3. Compare a while loop to a for loop.
+They are both programing tools that will repeat lines of code but,
+one will repeat as long as a condition is meet and the other will repeat for a predetermined number of times.
