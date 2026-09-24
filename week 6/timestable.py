@@ -3,22 +3,25 @@
 
 def main():
 
-    ans = input("want to learn a table? ").lower()
 
-    while  ans != "exit":
-        x = input("what table would you like to learn now? ")
+    while True:
+        x = input("what table would you like to learn now? ").strip().lower()
 
-        for i in range(10):
-            x = int(x)
-            if x<1 or x>10:
-                print("table not available")
-                break
-            elif x == "exit":
-                break
-            else:
-                i += 1
-                z = i * x
-                print(f"{i} times {x} is equal to {z}")
+        if x == "exit":
+            break
+        else:
+            for i in range(10):
+                if int(x)<1 or int(x)>10:
+                    print("table not available")
+                    break
+                else:
+                    x = int(x)
+                    i += 1
+                    z = i * x
+                    print(f"{i} times {x} is equal to {z}")
+
+
+
 
 
 
