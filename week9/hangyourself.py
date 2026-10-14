@@ -13,11 +13,30 @@
 #       if they dont get it print you are sorry then print the correct answer
 #
 #
-#
-#
-#
-#
-#
-#
-#
-#
+
+import random
+def main():
+
+
+    hangyourself()
+
+
+def hangyourself():
+    with open("ranwords.txt") as new_file:
+        content = new_file.read().splitlines()
+        word = random.choice(content)
+        line = ["_"]* len(word)
+        print(" ".join(line))
+
+    while True:
+        guess = input("take a guess: ")
+        if len(guess) == 1:
+            break
+        else:
+            print("invalid guess")
+
+
+
+
+if __name__ == "__main__":
+    main()
